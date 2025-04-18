@@ -7,9 +7,20 @@ public class Main {
 
         System.out.println(firstPerson.getName());
 
-        firstPerson.setName("RayPotato");
+//        firstPerson.setName("RayPotato");
+//
+//        System.out.println(firstPerson.getName());
 
-        System.out.println(firstPerson.getName());
+        System.out.println(firstPerson.getEnergy());
+
+        firstPerson.work( 5);
+
+        System.out.println(firstPerson.getEnergy());
+
+        firstPerson.eat(3);
+
+        System.out.println(firstPerson.getEnergy());
+
 
 
     }
