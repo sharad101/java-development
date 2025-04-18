@@ -23,7 +23,7 @@ public class SandwichShop {
         System.out.println("2: Large - base price $8.95");
         System.out.print("Enter your choice (1 or 2): ");
         int sizeChoice = scanner.nextInt();
-        scanner.nextLine(); 
+        scanner.nextLine();
 
         if (sizeChoice == 1) {
             basePrice = 5.45;
