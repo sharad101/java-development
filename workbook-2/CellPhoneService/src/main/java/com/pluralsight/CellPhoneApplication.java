@@ -8,6 +8,7 @@ public class CellPhoneApplication {
         Scanner scanner = new Scanner(System.in);
 
         CellPhone myPhone = new CellPhone();
+        
 
         // Prompt the user for cell phone information
         System.out.print("What is the serial number? ");
