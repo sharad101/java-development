@@ -5,7 +5,7 @@ public class Jewelry extends FixedAsset {
 
 
     public Jewelry(String name, double karat) {
-        super(name, calculateValue(karat));
+        super(name, 0);
         this.karat = karat;
     }
 
@@ -18,10 +18,9 @@ public class Jewelry extends FixedAsset {
         return karat * 1000;
     }
 
-    
+
     @Override
     public double getValue() {
-        // Could implement specific valuation logic here
         return marketValue;
     }
 }
